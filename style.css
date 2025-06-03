@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Sim";
+    src: url(fonts/the_jacatra/THE_JACATRA.otf);
+}
+
+:root{
+    --font-sim: "sim", cursive;
+}
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -77,6 +86,36 @@ p{
     color: #ffffff;
     font-weight: 500;
     text-shadow: 0 2px 5px black  
+}
+
+img {
+    width: 500px;
+    height: 250px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.Recado{
+    font-family: var(--font-sim);
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: color 0.3s ease-in-out;
+}
+
+#link{
+    transition: linear 0.3s;
+    color: #01fbff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#link:hover {
+    color: #ffffff;
+    text-shadow: #000 0 0 10px;
+    font-size: 2rem;
 }
 
 footer {
